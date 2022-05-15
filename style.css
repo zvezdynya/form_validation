@@ -1,0 +1,93 @@
+body {
+    width: 100vw;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.page_tittle {
+    margin-bottom: 5%;
+}
+
+form.modal-content {
+    width: 45vw;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 0;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 3% 10%;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0;
+}
+
+input, select {
+    border: none;
+    border-bottom: 1px solid rgba(17, 13, 245, 0.6);
+    margin-bottom: 3%;
+    padding-left: 2%;
+    height: 40px;
+    background-color: rgb(202, 224, 245, 0.6);
+    border-radius: 10px;
+}
+
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 1.2em;
+    margin-top: 5%;
+}
+
+.btn-primary {
+    background-color: none;
+    border-radius: 30px;
+    margin: 5% auto;
+    width: 100%;
+    height: 45px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgba(16, 138, 252, 0.8);
+    border: rgba(16, 138, 252, 0.8);
+}
+
+.btn-close {
+    margin-left: 95%;
+}
+
+.check {
+    width: 4%;
+    margin: 1% 5% 1% 0;
+}
+
+.check_label {
+    display: flex;
+    align-items: center;
+    font-size: 0.85em;
+    margin: 0;
+}
+
+.icons {
+    margin-bottom: 5%;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 0.85em;
+    margin: 2% 0;
+}
+
+.icons__tittle {
+    font-size: 1.2em;
+}
+
+.icons__item {
+    width: 45px;
+}
+
+img {
+    width: 100%;
+}

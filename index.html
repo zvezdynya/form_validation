@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Знакомство с Java Script!</title>
+</head>
+
+<body>
+    <div data-bs-toggle="modal" data-bs-target="#exampleModal" class="hello">
+        <h2 class="page_tittle">Давай заполним форму регистрации!</h2>
+        <p class="btn btn-outline-primary">Зарегистрироваться</p>
+    </div>
+    <div class="modal" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <form method="#" action="#" class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h2 class="form_tittle">Создать личный кабинет</h2>
+                <p>* - поля, обязательные для заполнения</p>
+                <label for="userName">*Введите имя:</label>
+                <input type="text" name="" id="userName" placeholder="Ф.И.О.">
+                <label for="userPhone">*Введите номер телефона:</label>
+                <input type="tel" id="userPhone" placeholder="+7(999)-999-99-99">
+                <label for="userEmail">*Введите e-mail:</label>
+                <input type="email" id="userEmail" placeholder="abcdef@gmail.com">
+                <label for="" id="gender" class="d-block">*Выберете пол:
+                    <label for="male" class="check_label">
+                        <input type="radio" id="male" name="gender" class="check">
+                        Мужской</label>
+                    <label for="female" class="check_label">
+                        <input type="radio" id="female" name="gender" class="check">
+                        Женский</label>
+                </label>
+                <label for="userAge">*Выберите возраст:</label>
+                <select name="" id="age">
+                    <option disabled selected="selected" value="none">Выберите</option>
+                    <option value="age_befor_18">До 18</option>
+                    <option value="age_18-24">18-24</option>
+                    <option value="age_25-31">25-31</option>
+                    <option value="age_32-38">32-38</option>
+                    <option value="age_39-45">39-45</option>
+                    <option value="age_46-51">46-51</option>
+                    <option value="age_after_52">Старше 52</option>
+                </select>
+                <label for="userPass">*Придумайте пароль(от 8 до 20 знаков):</label>
+                <input type="password" id="userPass">
+                <label for="userPassConfirm">*Повторите пароль(от 8 до 20 знаков):</label>
+                <input type="password" id="userPassConfirm">
+                <label for="" class="check_label">
+                    <input type="checkbox" class="check" id="agreement">
+                    *Я согласен на обработку моих персональных данных
+                </label>
+                <div id="errorMessage"></div>
+                <button type="button" class="but_registration btn-primary btn-tablet"
+                    id="but_registration">Зарегестрироваться</button>
+                <div class="text-center icons__tittle">Мы в социальных сетях:</div>
+                <div class="text-center icons__items d-flex justify-content-center">
+                    <button class="btn btn-outline icons__item twitt"><img src="assets/img/twitt.png" alt=""></button>
+                    <button class="btn btn-outline icons__item youtube"><img src="assets/img/u2be.png" alt=""></button>
+                    <button class="btn btn-outline icons__item facebook"><img src="assets/img/facebook.png"
+                            alt=""></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
