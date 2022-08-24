@@ -91,3 +91,7 @@ label {
 img {
     width: 100%;
 }
+
+.modal-dialog {
+    margin: 0 auto;
+}
